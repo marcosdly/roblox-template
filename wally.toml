@@ -1,0 +1,20 @@
+[package]
+name = "marcos/roblox-template"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dev-dependencies]
+UILabs = "pepeeltoro41/ui-labs@2.4.2"
+
+[dependencies]
+Riptide = "marcosdly/riptide-framework@0.8.2"
+Stream = "tyleratstarboard/stream@1.0.0"
+QuickZone = "ldgerrits/quickzone@1.4.6"
+PathMath = "w1nthinker/path-math@0.1.0"
+DeepDelta = "solarscuffle-bot/deep-delta@3.1.0"
+Mitt = "marcosdly/mitt@1.0.0"
+GreenTea = "corecii/greentea@0.4.11"
+
+[server-dependencies]
+ProfileStore = "lm-loleris/profilestore@1.0.3"
