@@ -1,14 +1,185 @@
-# A fast, small, safe, gradually typed embeddable scripting language derived from Lua
-#
-# https://github.com/luau-lang/luau
-# https://luau.org/
+###############################################################################
+# Generated files / Package managers
+###############################################################################
+
+# Tooling
+sourcemap.json
+
+# Pesde (Lua package manager) - cache and installed packages
+.pesde/
+# pesde.lock
+
+# Lune & Luau packages (installed dependencies)
+luau_packages/
+lune_packages/
+Packages
+ServerPackages
+DevPackages
+
+# Roblox packages (installed dependencies)
+roblox_packages/
+
+# rbxsync
+.rbxsync-trash
+
+###############################################################################
+# Build & output artifacts
+###############################################################################
+
+# Rojo build output
+build/
+out/
+
+# Compiled/minified Lua (if generated)
+*.min.lua
+
+# roblox-ts
+/node_modules
+/out
+/include
+*.tsbuildinfo
+
+
+###############################################################################
+# Development tools & profiling
+###############################################################################
 
 # Code coverage
 coverage.out
+coverage/
+*.profdata
 
-# Profiling
+# Profiling & performance analysis
 profile.out
 profile.svg
+profile.json
 
-# Time trace
+# Time trace (Chrome DevTools format)
 trace.json
+
+
+###############################################################################
+# Roblox Studio & sync artifacts
+###############################################################################
+
+# Roblox Studio temporary files
+*.rbxl.lock
+*.rbxm.lock
+.robloxrc
+
+# Rojo sync state
+.rojo
+
+
+###############################################################################
+# IDE & Editor files
+###############################################################################
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim/Neovim
+.vim/
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+
+###############################################################################
+# Operating System
+###############################################################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+
+
+###############################################################################
+# Node.js / NPM (if used for tooling)
+###############################################################################
+
+node_modules/
+npm-debug.log
+npm-debug.log.*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log
+.npmrc
+
+
+###############################################################################
+# Environment & secrets
+###############################################################################
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Secrets
+*.key
+*.pem
+*.p12
+*.p8
+
+
+###############################################################################
+# Logs
+###############################################################################
+
+*.log
+logs/
+*.out
+
+# Rojo sync logs
+sync.log
+
+
+###############################################################################
+# Temporary / user files
+###############################################################################
+
+# OS temp files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Archive files (built locally)
+*.zip
+*.7z
+*.tar
+*.gz
