@@ -1,0 +1,102 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+###############################################################################
+# All files
+###############################################################################
+[*]
+charset = utf-8
+insert_final_newline = true
+trim_trailing_whitespace = true
+end_of_line = lf
+
+
+###############################################################################
+# Lua / Luau source files
+###############################################################################
+[*.{lua,luau}]
+indent_style = tab
+indent_size = 4
+
+# Luau-specific formatting (if using Rojo/StyLua)
+# Note: Configure StyLua via stylua.toml for advanced options
+quote_type = single
+collapse_simple_blocks = false
+
+
+###############################################################################
+# JSON files (including Rojo project configs)
+###############################################################################
+[*.{json,project.json,model.json}]
+indent_style = space
+indent_size = 2
+
+
+###############################################################################
+# TOML files (Pesde config)
+###############################################################################
+[*.toml]
+indent_style = space
+indent_size = 2
+
+
+###############################################################################
+# YAML files (CI/CD, tooling)
+###############################################################################
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+
+###############################################################################
+# Markdown & documentation
+###############################################################################
+[*.{md,markdown}]
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = false
+
+
+###############################################################################
+# Windows-specific scripts (CRLF line endings per .gitattributes)
+###############################################################################
+[*.{bat,cmd,ps1}]
+end_of_line = crlf
+indent_style = space
+indent_size = 2
+
+
+###############################################################################
+# Shell scripts (Unix-style line endings)
+###############################################################################
+[*.{sh,bash}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+
+
+###############################################################################
+# Properties files & configs
+###############################################################################
+[*.{properties,ini,cfg}]
+indent_style = space
+indent_size = 2
+
+
+###############################################################################
+# Lock files (generated, minimal formatting)
+###############################################################################
+[*.{lock,lock.json}]
+indent_style = space
+indent_size = 2
+insert_final_newline = false
+
+
+###############################################################################
+# Log files (preserve as-is)
+###############################################################################
+[*.log]
+insert_final_newline = false
+trim_trailing_whitespace = false
