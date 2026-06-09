@@ -16,6 +16,8 @@ Batteries-included project base
 - [DeepDelta](https://github.com/SolarScuffle-Bot/DeepDelta)
 - [Stream](https://github.com/TylerAtStarboard/Stream)
 - [ClasseV2](https://github.com/podushkahrenov/ClasseV2)
+- [SerikaNum](https://github.com/evilbocchi/serikanum)
+- [AlyaNum](https://github.com/evilbocchi/alyanum)
 
 ### Client-only
 
