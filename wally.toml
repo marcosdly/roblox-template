@@ -15,6 +15,9 @@ PathMath = "w1nthinker/path-math@0.1.0"
 DeepDelta = "solarscuffle-bot/deep-delta@3.1.0"
 Mitt = "marcosdly/mitt@1.0.0"
 GreenTea = "corecii/greentea@0.4.11"
+SerikaNum = "evilbocchi/serikanum@1.6.0"
+AlyaNum = "evilbocchi/alyanum@1.1.10"
+Classe = "podushkahrenov/classe@2.0.1"
 
 [server-dependencies]
 ProfileStore = "lm-loleris/profilestore@1.0.3"
