@@ -19,8 +19,18 @@ DevPackages
 # Roblox packages (installed dependencies)
 roblox_packages/
 
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# Project place file
+/roblox-template.rbxlx
+
 # rbxsync
 .rbxsync-trash
+
+# wally
+wally.lock
 
 ###############################################################################
 # Build & output artifacts
