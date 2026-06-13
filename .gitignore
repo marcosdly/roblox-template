@@ -76,8 +76,9 @@ trace.json
 ###############################################################################
 
 # Visual Studio Code
-.vscode/
+.vscode/*
 *.code-workspace
+!.vscode/settings.json
 
 # JetBrains IDEs
 .idea/
